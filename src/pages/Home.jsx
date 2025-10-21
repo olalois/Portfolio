@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import officePic from '../assets/officePic.jpg';
 // import { faCode, faLaptop, faMobile } from '@fortawesome/free-solid-svg-icons'
 
 const Home = () => {
@@ -58,7 +59,7 @@ const Home = () => {
           </span> */}
 
           <motion.img
-            src="src/assets/officePic.jpg"
+            src={officePic}
             alt="Profile"
             className='w-72 sm:w-64 md:w-80 lg:w-96 h-auto rounded-4xl shadow-md shadow-blue-400'
             initial={{ y: 100, opacity: 0 }}

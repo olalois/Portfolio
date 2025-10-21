@@ -1,11 +1,19 @@
 import React, { useState } from "react";
 import { ChevronLeft, ChevronRight, ExternalLink, Github } from "lucide-react";
+import AlpinistLandingPage from '../assets/AlpinistLandingPage.png';
+import contactform from '../assets/contactform.png';
+import maintenancepagecomplaintpage from '../assets/maintenancepagecomplaintpage.png';
+import PhoenixLandingpage from '../assets/PhoenixLandingpage.png';
+import Productlistwithcart from '../assets/Productlistwithcart.png';
+import profilecard from '../assets/profilecard.png';
+import WOLOM from '../assets/WOLOM.png';
+import RecipePage from '../assets/RecipePage.png';
 
 const projects = [
   {
     id: 1,
     title: "PHOENIX LANDING PAGE",
-    image: "src/assets/Phoenix-Landingpage.png",
+    image:PhoenixLandingpage,
     description: "A responsive landing page built with HTML, CSS and JavaScript",
     github: "https://github.com/olalois",
     live: "https://olalois.github.io/Phoenix-Landingpage/#spotlight",
@@ -13,7 +21,7 @@ const projects = [
   {
     id: 2,
     title: "PROFILE CARD WITH FORM VALIDATION",
-    image: "src/assets/profile-card.png",
+    image: profilecard,
     description: "A profile card component with integrated form validation.",
     github: "https://github.com/olalois",
     live: "",
@@ -21,7 +29,7 @@ const projects = [
   {
     id: 3,
     title: "THE ALPINISTS'",
-    image: "src/assets/AlpinistLandingPage.png",
+    image: AlpinistLandingPage,
     description: "A responsive landing page built with HTML and CSS",
     github: "https://github.com/olalois",
     live: "https://olalois.github.io/AlpinistLandingPage/",
@@ -29,7 +37,7 @@ const projects = [
   {
     id: 4,
     title: "WORLD LIBERATION MINISTRY",
-    image: "src/assets/WOLOM.png",
+    image: WOLOM,
     description: "A responsive church website built with React JS and Tailwind CSS",
     github: "https://github.com/olalois",
     live: "https://world-liberation-ministries.vercel.app/about",
@@ -37,7 +45,7 @@ const projects = [
   {
     id: 5,
     title: "MENU/RECIPE PAGE",
-    image: "src/assets/Recipe-Page.png",
+    image: RecipePage,
     description: "A responsive menu/recipe page built with HTML, CSS and JavaScript",
     github: "https://github.com/olalois",
     live: "https://olalois.github.io/Recipe-Page/",
@@ -45,7 +53,7 @@ const projects = [
   {
     id: 6,
     title: "MAINTAINANCE PAGE",
-    image: "src/assets/maintenance-page-complaintpage.png",
+    image: maintenancepagecomplaintpage,
     description: "A responsive maintenance page built with HTML CSS and JavaScript.",
     github: "https://github.com/olalois",
     live: "https://olalois.github.io/project-on-maintenance-page/",
@@ -53,7 +61,7 @@ const projects = [
   {
     id: 7,
     title: "CONTACT FORM PAGE",
-    image: "src/assets/contact-form.png",
+    image: contactform,
     description: "A responsive contact form page built with HTML and CSS.",
     github: "https://github.com/olalois",
     live: " https://olalois.github.io/Contact-form/",
@@ -61,7 +69,7 @@ const projects = [
    {
     id: 8,
     title: "PRODUCT LIST WITH CART",
-    image: "src/assets/Product-list-with-cart.png",
+    image: Productlistwithcart,
     description: "A product list page with cart functionality built using HTML, CSS, and JavaScript.",
     github: "https://github.com/olalois",
     live: "https://olalois.github.io/Product-list-with-cart/",
