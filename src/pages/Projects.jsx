@@ -24,7 +24,7 @@ const projects = [
     image: profilecard,
     description: "A profile card component with integrated form validation.",
     github: "https://github.com/olalois",
-    live: "",
+    live: "https://olalois.github.io/ProfileCardHNGTask1/index.html",
   },
   {
     id: 3,
