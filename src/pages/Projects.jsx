@@ -12,12 +12,13 @@ import RecipePage from '../assets/RecipePage.png';
 const projects = [
   {
     id: 1,
-    title: "PHOENIX LANDING PAGE",
-    image:PhoenixLandingpage,
-    description: "A responsive landing page built with HTML, CSS and JavaScript",
+    title: "WORLD LIBERATION MINISTRY",
+    image: WOLOM,
+    description: "A responsive church website built with React JS and Tailwind CSS",
     github: "https://github.com/olalois",
-    live: "https://olalois.github.io/Phoenix-Landingpage/#spotlight",
+    live: "https://world-liberation-ministries.vercel.app/",
   },
+  
   {
     id: 2,
     title: "PROFILE CARD WITH FORM VALIDATION",
@@ -36,11 +37,11 @@ const projects = [
   },
   {
     id: 4,
-    title: "WORLD LIBERATION MINISTRY",
-    image: WOLOM,
-    description: "A responsive church website built with React JS and Tailwind CSS",
+    title: "PHOENIX LANDING PAGE",
+    image:PhoenixLandingpage,
+    description: "A responsive landing page built with HTML, CSS and JavaScript",
     github: "https://github.com/olalois",
-    live: "https://world-liberation-ministries.vercel.app/about",
+    live: "https://olalois.github.io/Phoenix-Landingpage/#home",
   },
   {
     id: 5,
@@ -56,7 +57,7 @@ const projects = [
     image: maintenancepagecomplaintpage,
     description: "A responsive maintenance page built with HTML CSS and JavaScript.",
     github: "https://github.com/olalois",
-    live: "https://olalois.github.io/project-on-maintenance-page/",
+    live: "https://olalois.github.io/project-on-maintenance-page/complaintpage.html",
   },
   {
     id: 7,
