@@ -8,7 +8,7 @@ import Productlistwithcart from '../assets/Productlistwithcart.png';
 import profilecard from '../assets/profilecard.png';
 import WOLOM from '../assets/WOLOM.png';
 import RecipePage from '../assets/RecipePage.png';
-import Ecommerce from '../assets/ecommerce';
+import Ecommerce from '../assets/ecommerce.png';
 
 const projects = [
   {
@@ -24,7 +24,7 @@ const projects = [
     id: 2,
     title: "E-COMMERCE PRODUCT PAGE",
     image: Ecommerce,
-    description: "A profile card component with integrated form validation.",
+    description: "A simple React shopping experience with image previews and an interactive cart.",
     github: "https://github.com/olalois",
     live: "https://e-commerce-productpage.vercel.app/",
   },
