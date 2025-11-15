@@ -8,6 +8,7 @@ import Productlistwithcart from '../assets/Productlistwithcart.png';
 import profilecard from '../assets/profilecard.png';
 import WOLOM from '../assets/WOLOM.png';
 import RecipePage from '../assets/RecipePage.png';
+import Ecommerce from '../assets/ecommerce';
 
 const projects = [
   {
@@ -21,6 +22,14 @@ const projects = [
   
   {
     id: 2,
+    title: "E-COMMERCE PRODUCT PAGE",
+    image: Ecommerce,
+    description: "A profile card component with integrated form validation.",
+    github: "https://github.com/olalois",
+    live: "https://e-commerce-productpage.vercel.app/",
+  },
+  {
+    id: 3,
     title: "PROFILE CARD WITH FORM VALIDATION",
     image: profilecard,
     description: "A profile card component with integrated form validation.",
@@ -28,7 +37,7 @@ const projects = [
     live: "https://olalois.github.io/ProfileCardHNGTask1/index.html",
   },
   {
-    id: 3,
+    id: 4,
     title: "THE ALPINISTS'",
     image: AlpinistLandingPage,
     description: "A responsive landing page built with HTML and CSS",
@@ -36,7 +45,7 @@ const projects = [
     live: "https://olalois.github.io/AlpinistLandingPage/",
   },
   {
-    id: 4,
+    id: 5,
     title: "PHOENIX LANDING PAGE",
     image:PhoenixLandingpage,
     description: "A responsive landing page built with HTML, CSS and JavaScript",
@@ -44,7 +53,7 @@ const projects = [
     live: "https://olalois.github.io/Phoenix-Landingpage/#home",
   },
   {
-    id: 5,
+    id: 6,
     title: "MENU/RECIPE PAGE",
     image: RecipePage,
     description: "A responsive menu/recipe page built with HTML, CSS and JavaScript",
@@ -52,7 +61,7 @@ const projects = [
     live: "https://olalois.github.io/Recipe-Page/",
   },
   {
-    id: 6,
+    id: 7,
     title: "MAINTAINANCE PAGE",
     image: maintenancepagecomplaintpage,
     description: "A responsive maintenance page built with HTML CSS and JavaScript.",
@@ -60,7 +69,7 @@ const projects = [
     live: "https://olalois.github.io/project-on-maintenance-page/complaintpage.html",
   },
   {
-    id: 7,
+    id: 8,
     title: "CONTACT FORM PAGE",
     image: contactform,
     description: "A responsive contact form page built with HTML and CSS.",
@@ -68,7 +77,7 @@ const projects = [
     live: " https://olalois.github.io/Contact-form/",
   },
    {
-    id: 8,
+    id: 9,
     title: "PRODUCT LIST WITH CART",
     image: Productlistwithcart,
     description: "A product list page with cart functionality built using HTML, CSS, and JavaScript.",
